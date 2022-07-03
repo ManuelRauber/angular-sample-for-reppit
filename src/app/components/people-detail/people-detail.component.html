@@ -1,0 +1,22 @@
+<table>
+  <thead>
+    <tr>
+      <th>Eigenschaft</th>
+      <th>Wert</th>
+    </tr>
+  </thead>
+  <tbody *ngIf="people$ | async as people">
+    <tr>
+      <td>Name</td>
+      <td>{{ people.name }}</td>
+    </tr>
+    <tr>
+      <td>Größe</td>
+      <td>{{ people.height }}</td>
+    </tr>
+    <tr>
+      <td>Gender</td>
+      <td>{{ people.gender }}</td>
+    </tr>
+  </tbody>
+</table>

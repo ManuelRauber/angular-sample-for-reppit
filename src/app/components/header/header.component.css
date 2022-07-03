@@ -1,0 +1,22 @@
+:host {
+  display: block;
+  background-color: black;
+  padding: 1rem;
+}
+
+h1 {
+  color: yellow;
+  padding-bottom: 1rem;
+}
+
+a,
+a:active,
+a:visited,
+a:focus {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+}

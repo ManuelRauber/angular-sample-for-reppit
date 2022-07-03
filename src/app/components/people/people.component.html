@@ -1,0 +1,4 @@
+<app-list
+  [data]="peoples$ | async"
+  (itemClick)="detail($event)"
+></app-list>
